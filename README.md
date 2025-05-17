@@ -22,12 +22,12 @@ def test_avito_ru():
         time.sleep(3)
 
         event = driver.find_element(By.XPATH, "//input[@name='login']")
-        event.send_keys("+7 978 812-67-41")
+        event.send_keys("XXXXXXXXXXX")
         print("Введен логин")
         time.sleep(5)
 
         event = driver.find_element(By.XPATH, "//input[@name='password']")
-        event.send_keys("VaD9iSHondaAccord1999")
+        event.send_keys("XXXXXXXXXXXX")
         print("Введен пароль")
         time.sleep(5)
 
